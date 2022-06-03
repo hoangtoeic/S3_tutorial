@@ -1,0 +1,15 @@
+{
+  "name": "myexcels3project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "app": "node -e 'require(\"./app.js\").runExcel()'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1147.0",
+    "xlsx-populate": "^1.21.0"
+  }
+}
